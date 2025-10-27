@@ -1,3 +1,4 @@
 #!/bin/bash
 # The terminal should confirm system readiness here.
 # Currently, the startup message is missing.
+echo Hello, you are reading a message.
