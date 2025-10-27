@@ -1,0 +1,17 @@
++ release=false
++ optimize=false
++ ((  4 > 1  ))
++ case $1 in
++ release=true
++ shift 2
++ ((  2 > 1  ))
++ case $1 in
++ optimize=true
++ shift 2
++ ((  0 > 1  ))
++ true
++ echo 'Releasing build...'
+Releasing build...
++ true
++ echo 'Optimizing build...'
+Optimizing build...
